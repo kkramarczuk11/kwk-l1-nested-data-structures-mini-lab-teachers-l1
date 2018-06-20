@@ -18,12 +18,11 @@ def sandwich_request(ingredients, order)
       ["rye", "sourdough", "baguette"],
       ["ham", "salami", "turkey"],
       ["swiss", "munster", "cheddar"],
-      ["mayo", "mustard", "tabasco"],
-      "tomato"
+      ["mayo", "mustard", "tabasco"]
   ]
 if ingredients == order
   true
-elsif
+else
   false
 end
 end
