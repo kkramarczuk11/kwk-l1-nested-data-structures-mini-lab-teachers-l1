@@ -8,12 +8,18 @@ ingredients = [
 
 def sandwich_request(ingredients, order)
   # your code here!
-  if ingredients = [
+  ingredients = [
       ["rye", "sourdough", "baguette"],
       ["ham", "salami", "turkey"],
       ["swiss", "munster", "cheddar"],
       ["mayo", "mustard", "tabasco"]
-  ] == true
+  ]
+  order = [
+      ["rye", "sourdough", "baguette"],
+      ["ham", "salami", "turkey"],
+      ["swiss", "munster", "cheddar"],
+      ["mayo", "mustard", "tabasco"]
+  ]
 end
 end
 
